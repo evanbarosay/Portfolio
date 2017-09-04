@@ -14,7 +14,9 @@
   google: {
     families: ["Vollkorn:400,400italic,700,700italic","Montserrat:400,700","Oswald:300,400,700"]
   }
-});</script><script src="https://daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js" type="text/javascript"></script><link href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico" rel="shortcut icon" type="image/x-icon"><link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon"><style id="style-1-cropbar-clipper">
+});</script><script src="https://daks2k3a4ib2z.cloudfront.net/0globals/modernizr-2.7.1.js" type="text/javascript">
+</script><link href="https://y7v4p6k4.ssl.hwcdn.net/placeholder/favicon.ico" rel="shortcut icon" type="image/x-icon"><link href="https://daks2k3a4ib2z.cloudfront.net/img/webclip.png" rel="apple-touch-icon">
+<style id="style-1-cropbar-clipper">
 .en-markup-crop-options {
     top: 18px !important;
     left: 50% !important;
@@ -26,20 +28,36 @@
 
 .en-markup-crop-options div div:first-of-type {
     margin-left: 0px !important;
+  }
+#grad1 {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#583b3d, #f5f5f5) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#583b3d, #f5f5f5) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#583b3d, #f5f5f5) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#583b3d, #f5f5f5) !important; /* Standard syntax */
+}
+#grad2 {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(#f5f5f5, #f18e95) !important; /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(#f5f5f5, #f18e95) !important; /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#f5f5f5, #f18e95) !important; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(#f5f5f5, #f18e95) !important; /* Standard syntax */
+}
 }
 </style>
 </head>
 <body>
   <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
     <div class="w-container">
-      <a class="brand-block w-clearfix w-nav-brand" href="#">
-        <img class="logo-img" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530ab6fbadc8485f56000af3_minimal-logo.png" width="65"><h1 class="logo-title">Evan Barosay</h1>
+      <a class="brand-block w-clearfix w-nav-brand" href="index.html">
+        <img class="logo-img" src="extras/eblogo.png" width="75">
+        <h1 class="logo-title" style="font-size: 2rem;">Evan Barosay</h1>
       </a>
       <nav class="nav-menu w-nav-menu" role="navigation">
-        <a class="nav-link w-nav-link" href="#home" style="">home</a>
-        <a class="nav-link w-nav-link" href="#about" style="">about</a>
-        <a class="nav-link w-nav-link" href="#work" style="">work</a>
-        <a class="nav-link w-nav-link" href="#contact" style="">contact</a>
+        <a class="nav-link w-nav-link" href="index.html" style="">home</a>
+        <a class="nav-link w-nav-link" href="about.html" style="">about</a>
+        <a class="nav-link w-nav-link" href="projects.html" style="">work</a>
+        <a class="nav-link w-nav-link" href="contact.html" style="">contact</a>
       </nav>
       <div class="menu-button w-nav-button">
         <div class="w-icon-nav-menu">
@@ -49,312 +67,20 @@
     <div class="w-nav-overlay" data-wf-ignore="">
     </div>
   </div>
-  <div class="header">
+  <div id="grad1" class="header">
     <div class="w-container">
-      <h1 class="main-heading">Hi, my name is Evan<br>
+      <h1 class="main-heading" style="color:#f5f5f5; font-family: oswald; font-size: 4.5rem;">Hi, my name is Evan<br>
       </h1>
       <div class="divider">
       </div>
-      <div class="main-subtitle">Explore my work.</div>
+      <div class="main-subtitle"style="color:#f5f5f5; font-family: montserrat;font-size: 2rem;">Explore my work.</div>
     </div>
   </div>
-  <div class="about-section">
-    <img class="x-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530ac1247b5bc4ca19000c29_x-black.png" width="52">
+  <div id="grad2" class="about-section" style="height: 45vh;">
     <div class="w-container">
-      <p class="about-text">San Diego native finishing up her final year at UCSD as a Cognitive Science, Design and Interaction student. Pursuing a career in UI/UX. Loves French bulldog puppies, saving the environment & indoor cycling!</p>
-      <a class="button" href="#contact">Take a look at my resume!</a>
+      <p class="about-text" style="color:#47474f;font-family: montserrat;font-size: 1rem;">San Diego native finishing up her final year at UCSD as a Cognitive Science, Design and Interaction student. Pursuing a career in UI/UX. Loves French bulldog puppies, saving the environment & indoor cycling!</p>
+      <a class="button" href="contact.html" style="color:#47474f;font-family: montserrat;" >Take a look at my resume!</a>
     </div>
   </div>
-  <div class="section" id="process">
-    <div class="w-container">
-      <h2>How we make brands thrive</h2>
-      <div class="divider grey"></div>
-      <div class="w-row">
-        <div class="w-col w-col-4">
-          <div class="grey-icon-wrapper">
-            <img class="big-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7763b9b97cdf3e0008b9_icon-target.png" width="127">
-          </div>
-            <h3>SET a target</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.&nbsp;</p>
-          </div>
-          <div class="w-col w-col-4">
-            <div class="grey-icon-wrapper push-top">
-              <img class="big-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7772b9b97cdf3e0008bc_icon-design.png" width="127">
-            </div>
-            <h3>design a solution</h3>
-            <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.&nbsp;</p>
-          </div>
-          <div class="w-col w-col-4">
-            <div class="grey-icon-wrapper push-top">
-              <img class="big-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7778b9b97cdf3e0008be_icon-chart.png" width="127">
-              </div>
-              <h3>track the progress</h3>
-              <p>Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="grey section" id="projects">
-        <div class="w-container">
-          <h2>Recent projects</h2>
-          <div class="divider grey">
-          </div>
-          <div class="w-row">
-            <div class="w-col w-col-4 w-col-small-4">
-              <a class="project-wrapper w-inline-block" href="/project-page">
-                <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98693cd1ace03e000b61_proj11.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98693cd1ace03e000b61_proj11-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98693cd1ace03e000b61_proj11.jpg 800w"><div class="project-info">
-                  <h3 class="project-title">woods</h3>
-                  <div>Photography</div>
-                </div>
-              </a>
-            </div>
-            <div class="w-col w-col-4 w-col-small-4">
-              <div class="project-wrapper">
-                <a class="project-wrapper w-inline-block" href="/project-page">
-                  <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b96f23cd1ace03e000b56_proj4.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b96f23cd1ace03e000b56_proj4-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b96f23cd1ace03e000b56_proj4.jpg 800w"><div class="project-info">
-                    <h3 class="project-title">path</h3>
-                    <div>Website • Photography</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="w-col w-col-4 w-col-small-4">
-              <div class="project-wrapper">
-                <a class="project-wrapper w-inline-block" href="/project-page">
-                  <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b96fcb9b97cdf3e000a5a_proj6.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b96fcb9b97cdf3e000a5a_proj6-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b96fcb9b97cdf3e000a5a_proj6.jpg 800w"><div class="project-info">
-                    <h3 class="project-title">darkness</h3>
-                    <div>Website</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="w-row">
-            <div class="w-col w-col-4 w-col-small-4">
-              <a class="project-wrapper w-inline-block" href="/project-page">
-                <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b97203cd1ace03e000b58_proj8.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b97203cd1ace03e000b58_proj8-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b97203cd1ace03e000b58_proj8.jpg 800w"><div class="project-info">
-                  <h3 class="project-title">waves</h3>
-                  <div>Photography</div>
-                </div>
-              </a>
-            </div>
-            <div class="w-col w-col-4 w-col-small-4">
-              <div class="project-wrapper">
-                <a class="project-wrapper w-inline-block" href="/project-page">
-                  <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98a6fc4d6d4d76000b33_proj9.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98a6fc4d6d4d76000b33_proj9-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98a6fc4d6d4d76000b33_proj9.jpg 800w"><div class="project-info">
-                    <h3 class="project-title">drops</h3>
-                    <div>Website</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="w-col w-col-4 w-col-small-4">
-              <div class="project-wrapper">
-                <a class="project-wrapper w-inline-block" href="/project-page">
-                  <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b9734ef2d794e760009b6_project2.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b9734ef2d794e760009b6_project2-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b9734ef2d794e760009b6_project2.jpg 800w">
-                  <div class="project-info">
-                    <h3 class="project-title">ocean</h3>
-                    <div>Website</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="w-row">
-            <div class="w-col w-col-4 w-col-small-4">
-              <a class="project-wrapper w-inline-block" href="/project-page">
-                <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b984cb9b97cdf3e000a81_proj7.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b984cb9b97cdf3e000a81_proj7-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b984cb9b97cdf3e000a81_proj7.jpg 800w">
-                <div class="project-info">
-                  <h3 class="project-title">town</h3>
-                  <div>Website</div>
-                </div>
-              </a>
-            </div>
-            <div class="w-col w-col-4 w-col-small-4">
-              <div class="project-wrapper">
-                <a class="project-wrapper w-inline-block" href="/project-page">
-                  <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98583cd1ace03e000b5d_proj12.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98583cd1ace03e000b5d_proj12-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98583cd1ace03e000b5d_proj12.jpg 800w"><div class="project-info">
-                    <h3 class="project-title">mountain</h3>
-                    <div>Website</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="w-col w-col-4 w-col-small-4">
-              <div class="project-wrapper">
-                <a class="project-wrapper w-inline-block" href="/project-page">
-                  <img sizes="(max-width: 479px) 96vw, (max-width: 767px) 29vw, (max-width: 991px) 229.328125px, 299.984375px" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98b6fc4d6d4d76000b35_project1.jpg" srcset="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98b6fc4d6d4d76000b35_project1-p-500x500.jpeg 500w, http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b98b6fc4d6d4d76000b35_project1.jpg 800w">
-                  <div class="project-info">
-                    <h3 class="project-title">camera</h3>
-                    <div>Website</div>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="section" id="team">
-        <div class="w-container">
-          <h2>our team</h2>
-          <div class="divider grey">
-          </div>
-          <div class="team-row w-row">
-            <div class="member w-col w-col-3 w-col-small-6">
-              <img class="team-image" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7af4b9b97cdf3e0008fc_person1.png">
-              <h3 class="team-title">Ron Swanson</h3>
-              <div class="role">Founder</div>
-              <div class="social-buttons">
-                <a class="social-link w-inline-block" href="#">
-                  <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c55fc4d6d4d7600096f_twitter-icon_black.svg" width="14"></a>
-                  <a class="social-link w-inline-block" href="#">
-                    <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c8ffc4d6d4d76000973_linkdin-icon-black.svg" width="14"></a>
-                    <a class="social-link w-inline-block" href="#">
-                      <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c193cd1ace03e00091b_email-icon-black.svg" width="14">
-                    </a>
-                  </div>
-                </div>
-                <div class="member w-col w-col-3 w-col-small-6">
-                  <img class="team-image" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7b0d3cd1ace03e00090f_person2.png">
-                  <h3 class="team-title">Julia Depish</h3>
-                  <div class="role">Marketing</div>
-                  <div class="social-buttons">
-                    <a class="social-link w-inline-block" href="#">
-                      <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c55fc4d6d4d7600096f_twitter-icon_black.svg" width="14"></a>
-                      <a class="social-link w-inline-block" href="#">
-                        <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c8ffc4d6d4d76000973_linkdin-icon-black.svg" width="14"></a>
-                      <a class="social-link w-inline-block" href="#">
-                        <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c193cd1ace03e00091b_email-icon-black.svg" width="14">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="member w-col w-col-3 w-col-small-6">
-                    <img class="team-image" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7b14b9b97cdf3e0008fe_person3.png"><h3 class="team-title">Danny Devry</h3>
-                    <div class="role">Designer</div>
-                    <div class="social-buttons">
-                      <a class="social-link w-inline-block" href="#">
-                        <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7cb6fc4d6d4d7600097a_instagram-icon-black.svg" width="14"></a>
-                        <a class="social-link w-inline-block" href="#">
-                          <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c55fc4d6d4d7600096f_twitter-icon_black.svg" width="14"></a>
-                          <a class="social-link w-inline-block" href="#"><img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7ca8fc4d6d4d76000979_behance-icon-black.svg" width="14"></a>
-                          <a class="social-link w-inline-block" href="#"><img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c02ef2d794e760007ce_dribbble-icon-black.svg" width="14"></a>
-                          <a class="social-link w-inline-block" href="#"><img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c193cd1ace03e00091b_email-icon-black.svg" width="14"></a>
-                        </div>
-                      </div>
-                      <div class="member w-col w-col-3 w-col-small-6">
-                        <img class="team-image" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7b1cef2d794e760007a2_person4.png"><h3 class="team-title">Lisa Smith</h3>
-                        <div class="role">Developer</div>
-                        <div class="social-buttons">
-                          <a class="social-link w-inline-block" href="#">
-                            <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c263cd1ace03e00091c_facebook-icon_black.svg" width="14"></a>
-                            <a class="social-link w-inline-block" href="#">
-                              <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c55fc4d6d4d7600096f_twitter-icon_black.svg" width="14"></a>
-                              <a class="social-link w-inline-block" href="#">
-                                <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c193cd1ace03e00091b_email-icon-black.svg" width="14"></a>
-                              </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="grey section" id="testimonials">
-                          <div class="w-container">
-                            <img class="quote-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7a87b9b97cdf3e0008db_big-quote-icon.svg">
-                            <div class="testimonial-slider w-slider" data-animation="slide" data-duration="500" data-infinite="1">
-                              <div class="mask w-slider-mask">
-                                <div class="testimonial-slide w-slide" style="transform: translateX(0px); opacity: 1;"><p class="testimonial">“I love these guys! They did a great job. I would recommend them to anyone.”&nbsp;</p>
-                                  <img class="face" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530cdbe4c058cc946f000100_128.jpg" width="64">
-                                  <div class="from">Julius Von Uberstien</div>
-                                </div>
-                                <div class="left-border testimonial-slide w-slide" style="transform: translateX(0px); opacity: 1;"><p class="testimonial">“Elexis Corp. has grown immensely with the help of Minimal.”&nbsp;</p>
-                                  <img class="face" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530cdbbfc058cc946f0000fb_krystal.jpg" width="64"><div class="from">Rachel Stamos</div>
-                              </div>
-                              <div class="testimonial-slide w-slide" style="transform: translateX(0px); opacity: 1;"><p class="testimonial">“I’m working with these guys from now on!”</p><img class="face" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530cdc8a7f0fd48f37000105_face-am.jpg" width="64">
-                                <div class="from">John Smith</div>
-                              </div>
-                              <div class="left-border testimonial-slide w-slide" style="transform: translateX(0px); opacity: 1;"><p class="testimonial">“Top-notch job. Couldn’t have asked for better design and photography.</p>
-                                <img class="face" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530cdc7b7f0fd48f37000103_face-chad.jpg" width="64">
-                                <div class="from">Phil Johnson</div>
-                              </div>
-                            </div>
-                            <div class="arrow w-slider-arrow-left">
-                              <div class="w-icon-slider-left">
-                              </div>
-                            </div>
-                            <div class="arrow w-slider-arrow-right">
-                              <div class="w-icon-slider-right">
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="contact section" id="contact">
-                        <div class="w-container">
-                          <h2>LET’s Get in touch</h2>
-                          <div class="divider grey">
-                          </div>
-                          <div class="w-row">
-                            <div class="w-col w-col-4">
-                              <div class="icon-wrapper"><img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b83b3b9b97cdf3e000971_map-icon.png" width="44">
-                              </div>
-                              <h3>MEET US IN PERSON</h3>
-                              <p class="contact-text">8776 Juniper Street
-<br>Unit #204
-<br>Merriweather, Ontorio <br>
-Canada</p></div><div class="w-col w-col-4">
-  <div class="_2 icon-wrapper"><img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b83863cd1ace03e000a1d_mail-icon.png" width="70"></div>
-  <h3>The traditional way</h3>
-  <p class="contact-text">Email us
-<br>
-<a href="mailto:contact@minimal.com?subject=Hi!" class="link" target="_blank">contact@minimal.com<br><br></a>Contact form<br>
-<a class="link" href="#footer"></a>
-<a class="link" href="#footer">Scroll down</a></p></div><div class="w-col w-col-4"><div class="_2 icon-wrapper">
-  <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b83d4b9b97cdf3e000972_heart-icon.png" width="68">
-</div>
-<h3>Let’s get social</h3>
-<a class="contact-text social-wrapper w-clearfix w-inline-block" href="#">
-  <img class="social-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c263cd1ace03e00091c_facebook-icon_black.svg" width="14"><div class="social-link-text">Facebook</div>
-</a><a class="contact-text social-wrapper w-inline-block" href="#">
-  <img class="social-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c55fc4d6d4d7600096f_twitter-icon_black.svg" width="14"><div class="social-link-text">Twitter</div>
-</a>
-<a class="contact-text social-wrapper w-inline-block" href="#">
-  <img class="social-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c8ffc4d6d4d76000973_linkdin-icon-black.svg" width="14"><div class="social-link-text">Linkdin</div>
-</a>
-</div>
-</div>
-</div>
-</div>
-<footer class="footer section" id="footer">
-  <div class="w-container">
-    <div class="form-wrapper w-form">
-      <form data-name="Email Form" name="email-form">
-        <input class="darker field w-input" data-name="Name" maxlength="256" name="name" placeholder="Name" required="required" type="text">
-        <input class="field w-input" data-name="Email" maxlength="256" name="email" placeholder="Email" required="required" type="email">
-        <input class="darker field w-input" data-name="Budget" maxlength="256" name="budget" placeholder="Budget" required="required" type="text">
-        <textarea class="field large w-input" data-name="Comments" maxlength="5000" name="comments" placeholder="Describe your project..." required="required">
-        </textarea><input class="button form w-button" data-wait="Please wait..." type="submit" value="Send Message"></form>
-        <div class="success-message w-form-done">
-          <h1>Thank you!</h1>
-          <p>Your submission has been received!</p></div>
-          <div class="w-form-fail">
-            <p>Oops! Something went wrong while submitting the form :(</p>
-          </div>
-        </div>
-        <img class="footer-logo" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b854cfc4d6d4d760009e5_footer-logo.png" width="43"><p class="footer-text">Minimal Template made in Webflow. All rights reserved.</p>
-      </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript">
-    </script>
-<script src="https://daks2k3a4ib2z.cloudfront.net/530ab3ac7b5bc4ca19000b96/js/webflow.57f4ffb2a.js" type="text/javascript"></script>
-<!--[if lte IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif]-->
-
-<div id="ambiance-notification">
-</div>
-<div id="blue_light_filter" style="width: 100%; height: 100%; z-index: 2147483646; transition: -webkit-transform 10s ease-in-out; position: fixed !important; left: 0px !important; bottom: 0px !important; overflow: hidden !important; pointer-events: none !important; background: rgb(214, 107, 0); opacity: 0;">
-</div>
-<div id="blf_status" style="position: fixed !important; width: 105px; height: 27px;	color: white; text-shadow: 1px 2px 4px #000; font-size: 20px;	font-weight: bold; background-color: blue; z-index: 2147483647;	right: 0px; top: 0px; display:none; font-family: arial,sans-serif; text-align: center;">
-</div>
-<span style="border-radius: 3px; text-indent: 20px; width: auto; padding: 0px 4px 0px 0px; text-align: center; font-style: normal; font-variant: normal; font-weight: bold; font-stretch: normal; font-size: 11px; line-height: 20px; font-family: &quot;Helvetica Neue&quot;, Helvetica, sans-serif; color: rgb(255, 255, 255); background: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGhlaWdodD0iMzBweCIgd2lkdGg9IjMwcHgiIHZpZXdCb3g9Ii0xIC0xIDMxIDMxIj48Zz48cGF0aCBkPSJNMjkuNDQ5LDE0LjY2MiBDMjkuNDQ5LDIyLjcyMiAyMi44NjgsMjkuMjU2IDE0Ljc1LDI5LjI1NiBDNi42MzIsMjkuMjU2IDAuMDUxLDIyLjcyMiAwLjA1MSwxNC42NjIgQzAuMDUxLDYuNjAxIDYuNjMyLDAuMDY3IDE0Ljc1LDAuMDY3IEMyMi44NjgsMC4wNjcgMjkuNDQ5LDYuNjAxIDI5LjQ0OSwxNC42NjIiIGZpbGw9IiNmZmYiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxIj48L3BhdGg+PHBhdGggZD0iTTE0LjczMywxLjY4NiBDNy41MTYsMS42ODYgMS42NjUsNy40OTUgMS42NjUsMTQuNjYyIEMxLjY2NSwyMC4xNTkgNS4xMDksMjQuODU0IDkuOTcsMjYuNzQ0IEM5Ljg1NiwyNS43MTggOS43NTMsMjQuMTQzIDEwLjAxNiwyMy4wMjIgQzEwLjI1MywyMi4wMSAxMS41NDgsMTYuNTcyIDExLjU0OCwxNi41NzIgQzExLjU0OCwxNi41NzIgMTEuMTU3LDE1Ljc5NSAxMS4xNTcsMTQuNjQ2IEMxMS4xNTcsMTIuODQyIDEyLjIxMSwxMS40OTUgMTMuNTIyLDExLjQ5NSBDMTQuNjM3LDExLjQ5NSAxNS4xNzUsMTIuMzI2IDE1LjE3NSwxMy4zMjMgQzE1LjE3NSwxNC40MzYgMTQuNDYyLDE2LjEgMTQuMDkzLDE3LjY0MyBDMTMuNzg1LDE4LjkzNSAxNC43NDUsMTkuOTg4IDE2LjAyOCwxOS45ODggQzE4LjM1MSwxOS45ODggMjAuMTM2LDE3LjU1NiAyMC4xMzYsMTQuMDQ2IEMyMC4xMzYsMTAuOTM5IDE3Ljg4OCw4Ljc2NyAxNC42NzgsOC43NjcgQzEwLjk1OSw4Ljc2NyA4Ljc3NywxMS41MzYgOC43NzcsMTQuMzk4IEM4Ljc3NywxNS41MTMgOS4yMSwxNi43MDkgOS43NDksMTcuMzU5IEM5Ljg1NiwxNy40ODggOS44NzIsMTcuNiA5Ljg0LDE3LjczMSBDOS43NDEsMTguMTQxIDkuNTIsMTkuMDIzIDkuNDc3LDE5LjIwMyBDOS40MiwxOS40NCA5LjI4OCwxOS40OTEgOS4wNCwxOS4zNzYgQzcuNDA4LDE4LjYyMiA2LjM4NywxNi4yNTIgNi4zODcsMTQuMzQ5IEM2LjM4NywxMC4yNTYgOS4zODMsNi40OTcgMTUuMDIyLDYuNDk3IEMxOS41NTUsNi40OTcgMjMuMDc4LDkuNzA1IDIzLjA3OCwxMy45OTEgQzIzLjA3OCwxOC40NjMgMjAuMjM5LDIyLjA2MiAxNi4yOTcsMjIuMDYyIEMxNC45NzMsMjIuMDYyIDEzLjcyOCwyMS4zNzkgMTMuMzAyLDIwLjU3MiBDMTMuMzAyLDIwLjU3MiAxMi42NDcsMjMuMDUgMTIuNDg4LDIzLjY1NyBDMTIuMTkzLDI0Ljc4NCAxMS4zOTYsMjYuMTk2IDEwLjg2MywyNy4wNTggQzEyLjA4NiwyNy40MzQgMTMuMzg2LDI3LjYzNyAxNC43MzMsMjcuNjM3IEMyMS45NSwyNy42MzcgMjcuODAxLDIxLjgyOCAyNy44MDEsMTQuNjYyIEMyNy44MDEsNy40OTUgMjEuOTUsMS42ODYgMTQuNzMzLDEuNjg2IiBmaWxsPSIjYmQwODFjIj48L3BhdGg+PC9nPjwvc3ZnPg==&quot;) 3px 50% / 14px 14px no-repeat rgb(189, 8, 28); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; -webkit-font-smoothing: antialiased;">Save</span>
-<span style="width: 24px; height: 24px; background: url(&quot;data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pjxzdmcgd2lkdGg9IjI0cHgiIGhlaWdodD0iMjRweCIgdmlld0JveD0iMCAwIDI0IDI0IiB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxtYXNrIGlkPSJtIj48cmVjdCBmaWxsPSIjZmZmIiB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHJ4PSI2IiByeT0iNiIvPjxyZWN0IGZpbGw9IiMwMDAiIHg9IjUiIHk9IjUiIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgcng9IjEiIHJ5PSIxIi8+PHJlY3QgZmlsbD0iIzAwMCIgeD0iMTAiIHk9IjAiIHdpZHRoPSI0IiBoZWlnaHQ9IjI0Ii8+PHJlY3QgZmlsbD0iIzAwMCIgeD0iMCIgeT0iMTAiIHdpZHRoPSIyNCIgaGVpZ2h0PSI0Ii8+PC9tYXNrPjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9IiNmZmYiIG1hc2s9InVybCgjbSkiLz48L3N2Zz4=&quot;) 50% 50% / 14px 14px no-repeat rgba(0, 0, 0, 0.4); position: absolute; opacity: 1; z-index: 8675309; display: none; cursor: pointer; border: none; border-radius: 12px;">
-</span>
 </body>
 </html>
