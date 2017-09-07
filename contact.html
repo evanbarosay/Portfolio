@@ -42,11 +42,15 @@
       .img-circle {
       border-radius: 50%!important;
       }
+      #grad2 {
+        background: red; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#f5f5f5, #f18e95) !important; /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#f5f5f5, #f18e95) !important; /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#f5f5f5, #f18e95) !important; /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#f5f5f5, #f18e95) !important; /* Standard syntax */
+      }
       </style>
       </head>
-      <body>
-
-  </head>
   <body>
     <div class="navbar w-nav" data-animation="default" data-collapse="medium" data-contain="1" data-duration="400">
       <div class="w-container">
@@ -71,19 +75,19 @@
     <style type="text/css">
 
 </style>
-<div class="contact section" id="contact">
+<div class="contact section" id="grad2">
   <div class="w-container">
     <h2> Let's Get in Touch!</h2>
     <div class="divider grey"> </div>
     <div class="w-row">
       <div class="w-col w-col-4">
         <div class="icon-wrapper">
-          <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b83b3b9b97cdf3e000971_map-icon.png"" width=44>
+          <img src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b83b3b9b97cdf3e000971_map-icon.png" width=44>
         </div>
 
         <h3> LOCATION</h3>
         <p class="contact-text">
-          San Diego, CA
+          <h1 class="locate" style="color:#000000; font-family: Garamond; font-size: 1rem;">San Diego, CA</h1>
           <br>
         </p>
         </div>
@@ -94,14 +98,11 @@
           <h3> Email me </h3>
           <p class="contact-text">
             <a href="mailto:evanbarosay@gmail.com" class="link" target="_blank">
-              evanbarosay@gmail.com
+              <h4 class="locate" style="color:#000000; font-family: Garamond; font-size: 1rem;">evanbarosay@gmail.com</h4>
               <br>
               <br>
             </a>
-            Contact form
-            <br>
-            <a class="link" href="#footer"> </a>
-            <a class="link" href="#footer">Scroll down</a>
+
           </p>
         </div>
         <div class="w-col w-col-4">
@@ -109,15 +110,14 @@
             <img src="extras/heartme.png" width="68">
           </div>
           <h3>Follow me!</h3>
-          <a class="contact-text social-wrapper w-clearfix w-inline-block" href="https://www.linkedin.com/in/evanbarosay/">
+          <a class="contact-text social-wrapper w-clearfix w-inline-block" style="display:inline-block; margin-left: 0px; margin-right: 10px;" href="https://www.linkedin.com/in/evanbarosay/">
             <img class="social-icon" src="http://uploads.webflow.com/530ab3ac7b5bc4ca19000b96/530b7c8ffc4d6d4d76000973_linkdin-icon-black.svg" width="14">
-            <div class="social-link-text">Linkdin </a>
-            <a class="contact-text social-wrapper w-clearfix w-inline-block" href="https://medium.com/@Halo187a/designers-block-17742279bd2f">
-              <img class="social-icon" src="extras/medium.png" width="24">
-              <div class="social-link-text">Medium
-          </a>
-        </div>
-      </div>
+            <!--<div class="social-link-text">--> </a>
+            <a class="contact-text social-wrapper w-clearfix w-inline-block" style="display:inline-block; margin-left:0px; margin-top: 0px;" href="https://medium.com/@Halo187a/designers-block-17742279bd2f">
+              <img class="social-icon" style="margin-left:-5px" src="extras/medium.png" width="24">
+              <!--<div class="social-link-text">--></a>
+        <!--</div>-->
+      <!--</div> -->
     </div>
   </div>
   <footer class="footer section" id="footer">
