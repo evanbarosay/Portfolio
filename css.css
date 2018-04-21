@@ -21,7 +21,7 @@ body {
 
 h1 {
   margin: 10px 0px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 700;
 }
@@ -75,7 +75,13 @@ p {
   font-size: 15px;
   line-height: 22px;
 }
-
+/*.floating-box {
+    display: inline-block;
+    width: 585;
+    height: 385;
+    margin: 0px;
+    border: 100px solid #d7f6f9;
+}*/
 .button {
   display: inline-block;
   padding: 15px 33px;
@@ -569,7 +575,7 @@ p {
     width: 90%;
   }
   .audreysblock{
-    
+
   }
 }
 
@@ -585,4 +591,57 @@ p {
     padding-right: 5%;
     padding-left: 5%;
   }
+}
+#header {
+    width: 100%;
+    background-color: white;
+    height: 30px;
+}
+
+#container {
+    width: 100%;
+    background-color: #ffcc33;
+    margin: auto;
+}
+#first {
+    width: 100%;
+    float: left;
+    height: 350px;
+        background-color: #d0f8f9;
+}
+#second {
+    width: 100%;
+    float: left;
+    height: 350px;
+    background-color: #f5feff;
+}
+#third{
+  width: 100%;
+  float: left;
+  height: 350px;
+  background-color: #e6f9f7;
+}
+#fourth{
+  width: 100%;
+  float: left;
+  height: 350px;
+  background-color: #d7f6f9;
+}
+#fifth{
+  width: 100%;
+  float: left;
+  height: 350px;
+  background-color: #f5feff;
+}
+#sixth{
+  width: 100%;
+  float: left;
+  height: 350px;
+  background-color: #d0f8f9;
+}
+#seven{
+  width: 100%;
+  float: left;
+  height: 350px;
+  background-color: #d7f6f9;
 }
