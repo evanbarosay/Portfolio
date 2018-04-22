@@ -173,11 +173,21 @@ p {
 }
 
 .main-heading {
+  width:600px;
   margin-top: 7px;
   font-family: Quicksand, sans-serif;
   font-size: 44px;
   line-height: 55px;
   font-weight: 400;
+  float:right;
+}
+.main-heading2{
+  width:600px;
+  margin-top: 7px;
+  font-family: Quicksand, sans-serif;
+  font-size: 44px;
+  line-height: 55px;
+  float:centered;
 }
 
 .divider {
@@ -370,8 +380,14 @@ p {
   font-size: 17px;
 }
 
-.link {
-  color: #1c1c1c;
+button.link {
+   background:none;
+   border:none;
+   color:#7FABAC;
+  font-size: 40px;
+  width: 28%;
+margin-left: 30%;
+margin-right: 30%
 }
 
 .social-wrapper {
@@ -644,4 +660,10 @@ p {
   float: left;
   height: 350px;
   background-color: #d7f6f9;
+}
+#textbox{
+  width:400px;
+  word-wrap: break-word;
+  float: right;  font-size: 38px;
+    line-height: 44px;
 }
