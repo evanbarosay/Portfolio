@@ -667,3 +667,92 @@ margin-right: 30%
   float: right;  font-size: 38px;
     line-height: 44px;
 }
+
+#about{
+  width: 35%;
+  float: left;
+  height: 150px;
+  background-color: white;
+}
+.aboutDayToday
+{
+  width:600px;
+  margin-top: 7px;
+  font-family: Quicksand, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  float:left;
+}
+#aboutDescription{
+  width: 60%;
+  float: right;
+  height: 163px;
+  background-color: white;
+  text-align: justify;
+  margin-right: 50px;
+}
+.aboutDayToday
+{
+  width:600px;
+  margin-top: 7px;
+  font-family: Quicksand, sans-serif;
+  font-size: 30px;
+  line-height: 50px;
+  float:right;
+}
+#buffer{
+  width: 90%;
+  float: right;
+  height: 350px;
+  background-color: white;
+}
+#duration{
+  width: 35%;
+  float: left;
+  height: 100px;
+  background-color: white;
+  text-align: left;
+}
+#durationDescription{
+  width: 60%;
+  float: right;
+  height: 100px;
+  background-color: white;
+  text-align: justify;
+  margin-right: 50px;
+}
+#objectives{
+  width: 35%;
+  float: left;
+  height: 230px;
+  background-color: white;
+  text-align: left;
+}
+#objectiveDescription{
+  width: 60%;
+  float: right;
+  height: 173px;
+  background-color: white;
+  text-align: justify;
+  margin-right: 50px;
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+#DesignProcess{
+  width: 100%;
+  float: center;
+  height: 350px;
+  background-color: white;
+}
+.designDayToday
+{
+  width:60%;
+  margin-top: 7px;
+  font-family: Quicksand, sans-serif;
+  font-size: 40px;
+  line-height: 50px;
+}
