@@ -748,7 +748,7 @@ margin-right: 30%
   width:60%;
   margin-top: 7px;
   font-family: Quicksand, sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   line-height: 50px;
   background-color: white;
 }
@@ -782,3 +782,25 @@ margin-right: 30%
   text-align: justify;
   margin-right: 50px;
 }
+.main-heading3 {
+  width:45%;
+  margin-top: 7px;
+  margin-left: 30px;
+  margin-right: 15px;
+  font-family: Quicksand, sans-serif;
+  font-size: 30px;
+  line-height: 55px;
+  font-weight: 400;
+  float:left;}
+
+.main-heading4 {
+    width:50%%;
+    margin-top: 7px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-family: Quicksand, sans-serif;
+    font-size: 44px;
+    line-height: 55px;
+    font-weight: 400;
+    float:right;
+  }
